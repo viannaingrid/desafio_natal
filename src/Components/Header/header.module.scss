@@ -1,13 +1,47 @@
 header {
-    border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 15.75vh;
+    background-color: #8B1414;
+    background-image: url('../../assets/brilhos-fundo-nav.png');
 }
 
 .logoHeader {
+    width: 30%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+
+    img {
+        width: 6.5vw;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-weight: 400;
+        color: #fff;
+    }
+
+}
+
+.navHeader {
+    width: 30%;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .linkHeader {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+
+        &:hover {
+            font-size: 2.2rem;
+            text-decoration: underline solid 1px;
+        }
+    }
 }
