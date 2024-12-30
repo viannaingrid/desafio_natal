@@ -1,8 +1,6 @@
-import globoNatal from '../../assets/globo-arvore-natal.png';
 import cidadeViajar from '../../assets/cidades-para-viajar-no-natal5 1.png';
 import atracoesNatal from '../../assets/atracoes-do-natal-luz-em-gramado 1.png';
 import cidadeIluminada from '../../assets/cidades-para-viajar-no-natal6 1.png';
-import santa from '../../assets/santa-with-elfs.png';
 import presepio from '../../assets/presepio.jpg';
 import luzesNatal from '../../assets/rua-luzes-natal.jpg';
 import santaBR from '../../assets/santa-br.jpg';
