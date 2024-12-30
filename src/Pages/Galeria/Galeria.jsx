@@ -13,7 +13,7 @@ import s from './galeria.module.scss'
 export default function Galeria() {
     return (
         <main>
-            <section>
+            <section className={s.texto}>
                 <h1>Aqui temos algumas fotos que utilizamos</h1>
             </section>
             <section className={s.imgs}>
