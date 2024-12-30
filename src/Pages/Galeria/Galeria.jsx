@@ -11,18 +11,20 @@ import s from './galeria.module.scss'
 export default function Galeria() {
     return (
         <main>
-            <section className={s.texto}>
-                <h1>Aqui temos algumas fotos que utilizamos</h1>
-            </section>
-            <section className={s.imgs}>
-                <img src={cidadeViajar} alt="Imagem de uma cidade com os galhos das arvores decoradas" />
-                <img src={atracoesNatal} alt="Imagem da rua de gramado toda decorada com luzes e arvore de natal iluminada a noite" />
-                <img src={cidadeIluminada} alt="Imagem da beira do rio iluminada apartir das decorações das casas" />
-                <img src={presepio} alt="Imagem do presepio de jesus" />
-                <img src={luzesNatal} alt="Imagem de uma rua cheia de luzes de natal penduradas pelas casas" />
-                <img src={santaBR} alt="Desenho do papai noel com uma cerveja na mão e de shots, bem brasileiro" />
-                <img src={santaUS} alt="Pintura do Papai Noel representado nos Estados Unidos, vestindo sua clássica roupa vermelha com blusa, calças, cinto e botas pretas." />
-                <img src={vitral} alt="Imagem de um vitral pintado com jose, maria e jesus" />
+            <section className={s.fix}>
+                <section className={s.texto}>
+                    <h1>Aqui temos algumas fotos que utilizamos</h1>
+                </section>
+                <section className={s.imgs}>
+                    <img src={cidadeViajar} alt="Imagem de uma cidade com os galhos das arvores decoradas" />
+                    <img src={atracoesNatal} alt="Imagem da rua de gramado toda decorada com luzes e arvore de natal iluminada a noite" />
+                    <img src={cidadeIluminada} alt="Imagem da beira do rio iluminada apartir das decorações das casas" />
+                    <img src={presepio} alt="Imagem do presepio de jesus" />
+                    <img src={luzesNatal} alt="Imagem de uma rua cheia de luzes de natal penduradas pelas casas" />
+                    <img src={santaBR} alt="Desenho do papai noel com uma cerveja na mão e de shots, bem brasileiro" />
+                    <img src={santaUS} alt="Pintura do Papai Noel representado nos Estados Unidos, vestindo sua clássica roupa vermelha com blusa, calças, cinto e botas pretas." />
+                    <img src={vitral} alt="Imagem de um vitral pintado com jose, maria e jesus" />
+                </section>
             </section>
         </main>
     )

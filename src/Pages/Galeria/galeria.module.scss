@@ -1,3 +1,7 @@
+.fix {
+    height: 60vh;
+}
+
 .texto {
     display: flex;
     justify-content: center;
@@ -14,8 +18,9 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
 
+    
     img {
         width: 10%;
         height: 30vh;
