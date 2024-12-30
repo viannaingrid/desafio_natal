@@ -1,4 +1,33 @@
-header {
-    border: solid red;
+footer {
+    background-color: #8B1414;
+    background-image: url('../../assets/brilho-flocos-neve.png');    
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 19vh;
+    font-family: 'Times New Roman', Times, serif;
+
+    .icons {
+        display: flex;
+        align-items: center;
+        width: 11%;
+
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+
+    .textos {
+        font-size: 1.5rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentes {
+        display: flex;
+        padding-bottom: 3rem;
+    }
 }
