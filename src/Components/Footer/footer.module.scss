@@ -31,3 +31,22 @@ footer {
         padding-bottom: 3rem;
     }
 }
+
+@media (max-width: 450px) {
+    footer {
+        padding-bottom: 13%;
+        height: 20vh;
+        flex-direction: column;
+
+        .icons {
+            border: 1px solid blue;
+            width: 20%;
+            height: 30vh;
+
+            img {
+                width: 5vh;
+            }
+        }
+    }
+
+}
