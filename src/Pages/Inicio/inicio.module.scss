@@ -38,3 +38,19 @@
     align-items: center;
     height: 60vh;
 }
+
+@media (max-width: 450px) {
+    .globoNeve {
+        height: 20vh;
+
+        img {
+            width: 20vw;
+        }
+
+        p {
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 0.80rem;
+        }
+    }
+}
