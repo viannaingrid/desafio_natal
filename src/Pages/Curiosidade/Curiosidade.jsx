@@ -1,4 +1,9 @@
 import s from './curiosidade.module.scss';
+import presepio from '../../assets/presepio.jpg';
+import luzesNatal from '../../assets/rua-luzes-natal.jpg';
+import santaBR from '../../assets/santa-br.jpg';
+import santaUS from '../../assets/santa-us.jpg';
+import vitral from '../../assets/vitral.jpg';
 
 export default function Curiosidade(){
     return(
@@ -15,11 +20,12 @@ export default function Curiosidade(){
                     <li>Natal na Idade Média: Durante a Idade Média, as celebrações natalinas se estendiam por 12 dias, do dia 25 de dezembro até o dia 6 de janeiro, conhecido como Dia de Reis.</li>
                 </ul>
             </section>
-            <section className="s.fotos">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+            <section className={s.fotos}>
+                <img src={presepio} alt="Imagem do presepio de jesus" />
+                <img src={luzesNatal} alt="Imagem de uma rua cheia de luzes de natal penduradas pelas casas" />
+                <img src={santaBR} alt="Desenho do papai noel com uma cerveja na mão e de shots, bem brasileiro" />
+                <img src={santaUS} alt="Pintura do Papai Noel representado nos Estados Unidos, vestindo sua clássica roupa vermelha com blusa, calças, cinto e botas pretas." />
+                <img src={vitral} alt="Imagem de um vitral pintado com jose, maria e jesus" />
             </section>
             
         </main>

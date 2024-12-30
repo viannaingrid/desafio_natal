@@ -1,0 +1,35 @@
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.8rem;
+    font-family: "Great Vibes", serif;
+    color: #8B1414;
+}
+
+.listaCuriosidade {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1e9da;
+    background-image: url('../../assets/brilho-flocos-neve.png');
+
+    li {
+        line-height: 1.8;
+    }
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+
+    img {
+        width: 15%;
+        height: 30vh;
+    }
+}
