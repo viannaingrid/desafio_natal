@@ -7,3 +7,19 @@
     font-family: "Great Vibes", serif;
     color: #8B1414;
 }
+
+.imgs {
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+
+    img {
+        width: 10%;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
