@@ -53,4 +53,16 @@
             font-size: 0.80rem;
         }
     }
+
+    .imgs {
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        img {
+            width: 50%;
+            padding: 0.75rem;
+            margin: 0;
+        }
+    }
 }
